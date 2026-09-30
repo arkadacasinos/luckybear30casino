@@ -68,6 +68,7 @@ export default function RootLayout({
   return (
     <html lang="ru" className={`${headingFont.variable} ${bodyFont.variable}`}>
       <head>
+        <meta name="yandex-verification" content="dc3151e8fbbddc7e" />
         {/* Custom head tags slot — add verification, analytics or ad-network tags here without touching the Metadata API above. */}
       </head>
       <body className="antialiased">
